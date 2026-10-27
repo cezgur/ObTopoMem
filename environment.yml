@@ -1,0 +1,8 @@
+# Conda only manages the isolated Python interpreter and pip.
+# GPU frameworks and Python dependencies are installed by scripts/setup_env.sh.
+name: obtopomem
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
